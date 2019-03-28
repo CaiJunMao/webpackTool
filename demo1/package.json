@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=config/webpack.config.js",
+	"server": "webpack-dev-server --inline --progress --mode=development --config=config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaiJunMao/webpackTool.git"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "cjm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaiJunMao/webpackTool/issues"
+  },
+  "homepage": "https://github.com/CaiJunMao/webpackTool#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
